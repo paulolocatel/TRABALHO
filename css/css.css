@@ -142,12 +142,23 @@ a {
 	font:18px fuji, Arial, Tahoma, Sans-serif;
 	color:black;
 }
+.galeria{
+
+	display:flex;
+	flex-flow:row wrap;/*em linha e quebra se necessario*/
+	
+}
 .galeria img{
-	max-height:250px;
 	margin:5px;
-	float: left;
 	box-shadow:5px 5px 5px rgba(0,0,0,0.15);
-	display:flex
+	max-height:250px;
+	flex-flow:1;
+	
+	
+	
+	
+	
+	
 }
 
 
