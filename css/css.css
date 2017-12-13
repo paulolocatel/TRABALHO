@@ -3,15 +3,13 @@
 	padding:0
 }
 
-@font-face {
-     font-family: fuji;
-     src: url('fonts/fuji.otf');
-}
+
 /* ---------------------------------- LOGO -----------------------------------*/
 .logo{
 	height:50px;
 	float:left;
 	margin-right:5px;
+	
 }
 
 /* ---------------------------------- MENU -----------------------------------*/
@@ -99,8 +97,6 @@ a {
   font-size: 58px;
   line-height: 100%;
 }
-.wrap{
-}
 
 
 /* ---------------------------------------------------------------------*/
@@ -114,15 +110,16 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+	
 }
 /* ---------------------------------------------------------------------*/
 .corpo{
 	max-width:100vw;
 	text-align:justify;	
-	height:100vh;
 	background-color:dark-gray;
 	font-size: 18px;
 	margin: 0px 5% 0px 5%;
+	
 	
 }
 
@@ -147,19 +144,19 @@ a {
 	display:flex;
 	flex-flow:row wrap;/*em linha e quebra se necessario*/
 	
+	
 }
 .galeria img{
 	margin:5px;
 	box-shadow:5px 5px 5px rgba(0,0,0,0.15);
 	max-height:250px;
-	flex-flow:1;
-	
-	
-	
-	
+	flex:1;
+
 	
 	
 }
+
+
 
 
 
@@ -249,12 +246,7 @@ a {
 		color:#66a992;
 	}
 
-	.search-form {
-		margin:12px 0px 0px 20px;
-		float:left;
-	}
+	
 
-	.search-form input {
-		box-shadow:-1px 1px 2px rgba(0,0,0,0.1);
-	}
+
 }
